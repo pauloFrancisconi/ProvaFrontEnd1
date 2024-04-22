@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    max-width: 300px;
+    margin: 50px auto;
+    max-height: 600px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative; 
+}
+
+.titulo {
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+.credencial-container {
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.login-text {
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.senha {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.senha-text {
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.btn-login {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.btn-login-send {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgb(2, 255, 86);
+}
+
+.btn-login-send:hover {
+    background-color: rgb(0, 156, 34);
+
+}
